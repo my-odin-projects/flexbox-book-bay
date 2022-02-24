@@ -1,0 +1,158 @@
+body {
+  height: 100vh;
+  /* margin-left: 50px; */
+  /* margin-top: 10px; */
+  /* margin-right: 50px; */
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  /* padding-left: 50px;
+  padding-right: 50; */
+  margin: 0px;
+  /* scroll bar */
+  overflow-y: scroll;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  background-color: #1f2937;
+  font-family: "Hero";
+  padding-left: 40px;
+  padding-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  text-align: right;
+}
+
+.headerDetail,
+.menu a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+}
+
+.headerLine1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo,
+.menu,
+.headerDetail,
+.headerImg {
+  /* display: flex; */
+  flex: 1;
+  /* justify-content: flex-start; */
+}
+
+/* .menu {
+  justify-content: flex-end;
+} */
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .menu {
+  display: flex;
+  margin-left: auto;
+} */
+
+img {
+  width: 200px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  row-gap: 10px;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 300px;
+  /* flex-shrink: 0; */
+}
+
+.cardImg img {
+  border: 1px solid blue;
+  border-radius: 10%;
+  width: 100px;
+  height: 100px;
+}
+
+.imgText {
+  padding: 10px;
+  text-align: center;
+}
+
+.information h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.testimony {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 50px;
+}
+
+.quote {
+  width: 600px;
+  /* text-align: center; */
+  font-style: italic;
+  font-size: 20px;
+  color: #1f2937;
+}
+
+.customerName {
+  width: 600px;
+  align-self: flex-end;
+  font-weight: bolder;
+}
